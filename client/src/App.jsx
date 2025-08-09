@@ -11,15 +11,14 @@ export default function App() {
     <Router>
       <nav className="navbar">
         <Link to="/">Home</Link>
-        <Link to="/signup">Sign Up</Link>
+        {/* <Link to="/signup">Sign Up</Link> */}
         <Link to="/get-started">Get Started</Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/generate">Generate</Link>
-        <Link to="/settings">Settings</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="/signup" element={<Signup />} /> */}
         <Route path="/get-started" element={<GetStarted />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/generate" element={<Generate />} />

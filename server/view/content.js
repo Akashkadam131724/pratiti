@@ -2,7 +2,7 @@ import express from "express";
 import {
   createContent,
   getContent,
-} from "../controller/contentModelController";
+} from "../controller/contentModelController.js";
 
 const router = express.Router();
 

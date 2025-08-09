@@ -1,12 +1,13 @@
 import ContentModel from "../model/contentModel.js";
 const createContent = async (req, res) => {
   try {
-    const { name, description, country_code, capital } = req.body;
+    const { content_goal, pick_tone, language, topic, keywords } = req.body;
     const newContent = {
-      name,
-      description,
-      country_code,
-      capital,
+      content_goal,
+      pick_tone,
+      language,
+      topic,
+      keywords,
     };
     const created_content = await ContentModel.create(newContent);
 
