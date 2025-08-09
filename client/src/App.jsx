@@ -12,9 +12,9 @@ export default function App() {
       <nav className="navbar">
         <Link to="/">Home</Link>
         {/* <Link to="/signup">Sign Up</Link> */}
-        <Link to="/get-started">Get Started</Link>
-        <Link to="/dashboard">Dashboard</Link>
         <Link to="/generate">Generate</Link>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/get-started">Get Started</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -4,10 +4,10 @@ export default function GetStarted() {
       <h2>Let's get you started!</h2>
       <div>
         <h4>Choose content goal:</h4>
-        <button>Blog Post</button>
-        <button>Instagram Caption</button>
-        <button>Email Newsletter</button>
-        <button>Product Description</button>
+        <button style={{ color: "#555" }}>Blog Post</button>
+        <button style={{ color: "#555" }}>Instagram Caption</button>
+        <button style={{ color: "#555" }}>Email Newsletter</button>
+        <button style={{ color: "#555" }}>Product Description</button>
       </div>
       <div>
         <h4>Pick tone:</h4>
@@ -33,7 +33,7 @@ export default function GetStarted() {
           <input type="radio" name="lang" /> Marathi
         </label>
       </div>
-      <button>Continue</button>
+      <button style={{ color: "#555" }}>Continue</button>
     </section>
   );
 }
